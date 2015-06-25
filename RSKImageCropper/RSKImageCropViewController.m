@@ -31,13 +31,13 @@
 
 static const CGFloat kPortraitCircleMaskRectInnerEdgeInset = 15.0f;
 static const CGFloat kPortraitSquareMaskRectInnerEdgeInset = 20.0f;
-static const CGFloat kPortraitMoveAndScaleLabelVerticalMargin = 64.0f;
+//static const CGFloat kPortraitMoveAndScaleLabelVerticalMargin = 64.0f;
 static const CGFloat kPortraitCancelAndChooseButtonsHorizontalMargin = 13.0f;
 static const CGFloat kPortraitCancelAndChooseButtonsVerticalMargin = 21.0f;
 
 static const CGFloat kLandscapeCircleMaskRectInnerEdgeInset = 45.0f;
 static const CGFloat kLandscapeSquareMaskRectInnerEdgeInset = 45.0f;
-static const CGFloat kLandscapeMoveAndScaleLabelVerticalMargin = 12.0f;
+//static const CGFloat kLandscapeMoveAndScaleLabelVerticalMargin = 12.0f;
 static const CGFloat kLandscapeCancelAndChooseButtonsVerticalMargin = 12.0f;
 
 static const CGFloat kResetAnimationDuration = 0.4;
@@ -319,29 +319,29 @@ static const CGFloat kLayoutImageScrollViewAnimationDuration = 0.25;
 {
     return nil;
     
-    if (!_moveAndScaleLabel) {
-        _moveAndScaleLabel = [[UILabel alloc] init];
-        _moveAndScaleLabel.translatesAutoresizingMaskIntoConstraints = NO;
-        _moveAndScaleLabel.backgroundColor = [UIColor clearColor];
-        _moveAndScaleLabel.text = NSLocalizedString(@"Move and Scale", @"Move and Scale label");
-        _moveAndScaleLabel.textColor = [UIColor whiteColor];
-        _moveAndScaleLabel.opaque = NO;
-    }
-    return _moveAndScaleLabel;
+//    if (!_moveAndScaleLabel) {
+//        _moveAndScaleLabel = [[UILabel alloc] init];
+//        _moveAndScaleLabel.translatesAutoresizingMaskIntoConstraints = NO;
+//        _moveAndScaleLabel.backgroundColor = [UIColor clearColor];
+//        _moveAndScaleLabel.text = NSLocalizedString(@"Move and Scale", @"Move and Scale label");
+//        _moveAndScaleLabel.textColor = [UIColor whiteColor];
+//        _moveAndScaleLabel.opaque = NO;
+//    }
+//    return _moveAndScaleLabel;
 }
 
 - (UIButton *)cancelButton
 {
     return nil;
     
-    if (!_cancelButton) {
-        _cancelButton = [[UIButton alloc] init];
-        _cancelButton.translatesAutoresizingMaskIntoConstraints = NO;
-        [_cancelButton setTitle:NSLocalizedString(@"Cancel", @"Cancel button") forState:UIControlStateNormal];
-        [_cancelButton addTarget:self action:@selector(onCancelButtonTouch:) forControlEvents:UIControlEventTouchUpInside];
-        _cancelButton.opaque = NO;
-    }
-    return _cancelButton;
+//    if (!_cancelButton) {
+//        _cancelButton = [[UIButton alloc] init];
+//        _cancelButton.translatesAutoresizingMaskIntoConstraints = NO;
+//        [_cancelButton setTitle:NSLocalizedString(@"Cancel", @"Cancel button") forState:UIControlStateNormal];
+//        [_cancelButton addTarget:self action:@selector(onCancelButtonTouch:) forControlEvents:UIControlEventTouchUpInside];
+//        _cancelButton.opaque = NO;
+//    }
+//    return _cancelButton;
 }
 
 - (UIButton *)chooseButton
