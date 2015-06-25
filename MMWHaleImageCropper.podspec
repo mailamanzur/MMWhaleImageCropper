@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors      = { 'Maila Manzur' => 'mailamanzur@gmail.com' }
   s.source       = { :git => 'https://github.com/mailamanzur/MMWhaleImageCropper.git', :tag => s.version.to_s }
   s.platform     = :ios, '6.0'
-  s.source_files = 'MMWhaleImageCropper'
+  s.source_files = 'RSKImageCropper'
   s.frameworks = 'QuartzCore', 'UIKit'
   s.requires_arc = true
 end
