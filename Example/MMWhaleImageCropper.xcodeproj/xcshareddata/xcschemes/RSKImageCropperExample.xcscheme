@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B87A99EB19A4D2CD00D12CD4"
-               BuildableName = "RSKImageCropperExample.app"
-               BlueprintName = "RSKImageCropperExample"
-               ReferencedContainer = "container:RSKImageCropperExample.xcodeproj">
+               BuildableName = "MMWhaleImageCropper.app"
+               BlueprintName = "MMWhaleImageCropper"
+               ReferencedContainer = "container:MMWhaleImageCropper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B87A9A0619A4D2CD00D12CD4"
-               BuildableName = "RSKImageCropperExampleTests.xctest"
-               BlueprintName = "RSKImageCropperExampleTests"
-               ReferencedContainer = "container:RSKImageCropperExample.xcodeproj">
+               BuildableName = "MMWhaleImageCropperTests.xctest"
+               BlueprintName = "MMWhaleImageCropperTests"
+               ReferencedContainer = "container:MMWhaleImageCropper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B87A9A0619A4D2CD00D12CD4"
-               BuildableName = "RSKImageCropperExampleTests.xctest"
-               BlueprintName = "RSKImageCropperExampleTests"
-               ReferencedContainer = "container:RSKImageCropperExample.xcodeproj">
+               BuildableName = "MMWhaleImageCropperTests.xctest"
+               BlueprintName = "MMWhaleImageCropperTests"
+               ReferencedContainer = "container:MMWhaleImageCropper.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B87A99EB19A4D2CD00D12CD4"
-            BuildableName = "RSKImageCropperExample.app"
-            BlueprintName = "RSKImageCropperExample"
-            ReferencedContainer = "container:RSKImageCropperExample.xcodeproj">
+            BuildableName = "MMWhaleImageCropper.app"
+            BlueprintName = "MMWhaleImageCropper"
+            ReferencedContainer = "container:MMWhaleImageCropper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B87A99EB19A4D2CD00D12CD4"
-            BuildableName = "RSKImageCropperExample.app"
-            BlueprintName = "RSKImageCropperExample"
-            ReferencedContainer = "container:RSKImageCropperExample.xcodeproj">
+            BuildableName = "MMWhaleImageCropper.app"
+            BlueprintName = "MMWhaleImageCropper"
+            ReferencedContainer = "container:MMWhaleImageCropper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B87A99EB19A4D2CD00D12CD4"
-            BuildableName = "RSKImageCropperExample.app"
-            BlueprintName = "RSKImageCropperExample"
-            ReferencedContainer = "container:RSKImageCropperExample.xcodeproj">
+            BuildableName = "MMWhaleImageCropper.app"
+            BlueprintName = "MMWhaleImageCropper"
+            ReferencedContainer = "container:MMWhaleImageCropper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

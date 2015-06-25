@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/maila.manzur/Documents/RSKImageCropper/Example/MMWhaleImageCropper.xcodeproj">
+      location = "group:MMWhaleImageCropper.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6208AFCA1B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6208AFC81B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.debug.xcconfig */; };
+		6208AFCB1B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6208AFC91B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.release.xcconfig */; };
 		89BB37728461FC8C20D81A2B /* libPods-RSKImageCropperExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74203A87984840A534E55F6C /* libPods-RSKImageCropperExampleTests.a */; };
 		B803F69E1AAB0A1F004141CF /* CGGeometry+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = B803F69D1AAB0A1F004141CF /* CGGeometry+RSKImageCropper.m */; };
 		B8182F2E1ABC998B00601E43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8182F2D1ABC998B00601E43 /* LaunchScreen.xib */; };
@@ -32,6 +34,7 @@
 		B8B3824C1AC721A7004C55F0 /* UIApplication+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B3824B1AC721A7004C55F0 /* UIApplication+RSKImageCropper.m */; };
 		B8F617661AE43CEF00499402 /* RSKImageCropperPerformanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F617651AE43CEF00499402 /* RSKImageCropperPerformanceTests.m */; };
 		B8F617681AE4468000499402 /* RSKImageScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F617671AE4468000499402 /* RSKImageScrollViewTests.m */; };
+		DD0BFA45D9C602E100CED107 /* libPods-MMWhaleImageCropperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBDEDA56CEDC73413F063A6 /* libPods-MMWhaleImageCropperTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,29 +49,30 @@
 
 /* Begin PBXFileReference section */
 		46AAEE5D1B29155700E10C42 /* RSKImageCropViewController+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropViewController+Protected.h"; sourceTree = "<group>"; };
-		57E1277B2ACCBFB99F6EC92E /* Pods-RSKImageCropperExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSKImageCropperExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSKImageCropperExampleTests/Pods-RSKImageCropperExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6208AFC81B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-MMWhaleImageCropperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMWhaleImageCropperTests/Pods-MMWhaleImageCropperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6208AFC91B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-MMWhaleImageCropperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMWhaleImageCropperTests/Pods-MMWhaleImageCropperTests.release.xcconfig"; sourceTree = "<group>"; };
 		74203A87984840A534E55F6C /* libPods-RSKImageCropperExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSKImageCropperExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B803F69C1AAB0A1F004141CF /* CGGeometry+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+RSKImageCropper.h"; sourceTree = "<group>"; };
 		B803F69D1AAB0A1F004141CF /* CGGeometry+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+RSKImageCropper.m"; sourceTree = "<group>"; };
 		B8182F2D1ABC998B00601E43 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		B82DF9BF1AE26DAD001F4ED2 /* RSKImageCropperExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropperExample-Prefix.pch"; sourceTree = "<group>"; };
+		B82DF9BF1AE26DAD001F4ED2 /* MMWhaleImageCropper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMWhaleImageCropper-Prefix.pch"; sourceTree = "<group>"; };
 		B82DF9C01AE27E81001F4ED2 /* RSKTouchViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKTouchViewTests.m; sourceTree = "<group>"; };
 		B82DF9C81AE2B28B001F4ED2 /* RSKImageCropViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageCropViewControllerTests.m; sourceTree = "<group>"; };
 		B85787191AE44E26004232F0 /* UIApplication+RSKImageCropperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RSKImageCropperTests.m"; sourceTree = "<group>"; };
-		B87A99EC19A4D2CD00D12CD4 /* RSKImageCropperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSKImageCropperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87A99EC19A4D2CD00D12CD4 /* MMWhaleImageCropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMWhaleImageCropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87A99EF19A4D2CD00D12CD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B87A99F119A4D2CD00D12CD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B87A99F319A4D2CD00D12CD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B87A99F719A4D2CD00D12CD4 /* RSKImageCropperExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSKImageCropperExample-Info.plist"; sourceTree = "<group>"; };
+		B87A99F719A4D2CD00D12CD4 /* MMWhaleImageCropper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMWhaleImageCropper-Info.plist"; sourceTree = "<group>"; };
 		B87A99F919A4D2CD00D12CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B87A99FB19A4D2CD00D12CD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B87A99FD19A4D2CD00D12CD4 /* RSKImageCropperExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropperExample-Prefix.pch"; sourceTree = "<group>"; };
+		B87A99FD19A4D2CD00D12CD4 /* MMWhaleImageCropper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMWhaleImageCropper-Prefix.pch"; sourceTree = "<group>"; };
 		B87A99FE19A4D2CD00D12CD4 /* RSKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSKAppDelegate.h; sourceTree = "<group>"; };
 		B87A99FF19A4D2CD00D12CD4 /* RSKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSKAppDelegate.m; sourceTree = "<group>"; };
 		B87A9A0119A4D2CD00D12CD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B87A9A0719A4D2CD00D12CD4 /* RSKImageCropperExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSKImageCropperExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87A9A0719A4D2CD00D12CD4 /* MMWhaleImageCropperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMWhaleImageCropperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87A9A0819A4D2CD00D12CD4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B87A9A1019A4D2CD00D12CD4 /* RSKImageCropperExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSKImageCropperExampleTests-Info.plist"; sourceTree = "<group>"; };
+		B87A9A1019A4D2CD00D12CD4 /* MMWhaleImageCropperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMWhaleImageCropperTests-Info.plist"; sourceTree = "<group>"; };
 		B87A9A1219A4D2CD00D12CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B87A9A1E19A4D31100D12CD4 /* RSKExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKExampleViewController.h; sourceTree = "<group>"; };
 		B87A9A1F19A4D31100D12CD4 /* RSKExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKExampleViewController.m; sourceTree = "<group>"; };
@@ -85,7 +89,7 @@
 		B8B3824B1AC721A7004C55F0 /* UIApplication+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RSKImageCropper.m"; sourceTree = "<group>"; };
 		B8F617651AE43CEF00499402 /* RSKImageCropperPerformanceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageCropperPerformanceTests.m; sourceTree = "<group>"; };
 		B8F617671AE4468000499402 /* RSKImageScrollViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageScrollViewTests.m; sourceTree = "<group>"; };
-		E1A54F64148CAD255A339567 /* Pods-RSKImageCropperExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSKImageCropperExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSKImageCropperExampleTests/Pods-RSKImageCropperExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CCBDEDA56CEDC73413F063A6 /* libPods-MMWhaleImageCropperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMWhaleImageCropperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 				B87A9A0B19A4D2CD00D12CD4 /* UIKit.framework in Frameworks */,
 				B87A9A0A19A4D2CD00D12CD4 /* Foundation.framework in Frameworks */,
 				89BB37728461FC8C20D81A2B /* libPods-RSKImageCropperExampleTests.a in Frameworks */,
+				DD0BFA45D9C602E100CED107 /* libPods-MMWhaleImageCropperTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,8 +133,8 @@
 		B87A99ED19A4D2CD00D12CD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B87A99EC19A4D2CD00D12CD4 /* RSKImageCropperExample.app */,
-				B87A9A0719A4D2CD00D12CD4 /* RSKImageCropperExampleTests.xctest */,
+				B87A99EC19A4D2CD00D12CD4 /* MMWhaleImageCropper.app */,
+				B87A9A0719A4D2CD00D12CD4 /* MMWhaleImageCropperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 				B87A99F319A4D2CD00D12CD4 /* UIKit.framework */,
 				B87A9A0819A4D2CD00D12CD4 /* XCTest.framework */,
 				74203A87984840A534E55F6C /* libPods-RSKImageCropperExampleTests.a */,
+				CCBDEDA56CEDC73413F063A6 /* libPods-MMWhaleImageCropperTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,10 +169,10 @@
 		B87A99F619A4D2CD00D12CD4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B87A99F719A4D2CD00D12CD4 /* RSKImageCropperExample-Info.plist */,
+				B87A99F719A4D2CD00D12CD4 /* MMWhaleImageCropper-Info.plist */,
 				B87A99F819A4D2CD00D12CD4 /* InfoPlist.strings */,
 				B87A99FB19A4D2CD00D12CD4 /* main.m */,
-				B87A99FD19A4D2CD00D12CD4 /* RSKImageCropperExample-Prefix.pch */,
+				B87A99FD19A4D2CD00D12CD4 /* MMWhaleImageCropper-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -187,9 +193,9 @@
 		B87A9A0F19A4D2CD00D12CD4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B87A9A1019A4D2CD00D12CD4 /* RSKImageCropperExampleTests-Info.plist */,
+				B87A9A1019A4D2CD00D12CD4 /* MMWhaleImageCropperTests-Info.plist */,
 				B87A9A1119A4D2CD00D12CD4 /* InfoPlist.strings */,
-				B82DF9BF1AE26DAD001F4ED2 /* RSKImageCropperExample-Prefix.pch */,
+				B82DF9BF1AE26DAD001F4ED2 /* MMWhaleImageCropper-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -236,8 +242,8 @@
 		EC24B6778C72921304437F16 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				57E1277B2ACCBFB99F6EC92E /* Pods-RSKImageCropperExampleTests.debug.xcconfig */,
-				E1A54F64148CAD255A339567 /* Pods-RSKImageCropperExampleTests.release.xcconfig */,
+				6208AFC81B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.debug.xcconfig */,
+				6208AFC91B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -245,9 +251,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B87A99EB19A4D2CD00D12CD4 /* RSKImageCropperExample */ = {
+		B87A99EB19A4D2CD00D12CD4 /* MMWhaleImageCropper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B87A9A1819A4D2CD00D12CD4 /* Build configuration list for PBXNativeTarget "RSKImageCropperExample" */;
+			buildConfigurationList = B87A9A1819A4D2CD00D12CD4 /* Build configuration list for PBXNativeTarget "MMWhaleImageCropper" */;
 			buildPhases = (
 				B87A99E819A4D2CD00D12CD4 /* Sources */,
 				B87A99E919A4D2CD00D12CD4 /* Frameworks */,
@@ -257,14 +263,14 @@
 			);
 			dependencies = (
 			);
-			name = RSKImageCropperExample;
+			name = MMWhaleImageCropper;
 			productName = RSKPhotoCropperExample;
-			productReference = B87A99EC19A4D2CD00D12CD4 /* RSKImageCropperExample.app */;
+			productReference = B87A99EC19A4D2CD00D12CD4 /* MMWhaleImageCropper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B87A9A0619A4D2CD00D12CD4 /* RSKImageCropperExampleTests */ = {
+		B87A9A0619A4D2CD00D12CD4 /* MMWhaleImageCropperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B87A9A1B19A4D2CD00D12CD4 /* Build configuration list for PBXNativeTarget "RSKImageCropperExampleTests" */;
+			buildConfigurationList = B87A9A1B19A4D2CD00D12CD4 /* Build configuration list for PBXNativeTarget "MMWhaleImageCropperTests" */;
 			buildPhases = (
 				6AFE7950ADB38A86FEE6F8CB /* Check Pods Manifest.lock */,
 				B87A9A0319A4D2CD00D12CD4 /* Sources */,
@@ -277,9 +283,9 @@
 			dependencies = (
 				B87A9A0D19A4D2CD00D12CD4 /* PBXTargetDependency */,
 			);
-			name = RSKImageCropperExampleTests;
+			name = MMWhaleImageCropperTests;
 			productName = RSKPhotoCropperExampleTests;
-			productReference = B87A9A0719A4D2CD00D12CD4 /* RSKImageCropperExampleTests.xctest */;
+			productReference = B87A9A0719A4D2CD00D12CD4 /* MMWhaleImageCropperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -297,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B87A99E719A4D2CD00D12CD4 /* Build configuration list for PBXProject "RSKImageCropperExample" */;
+			buildConfigurationList = B87A99E719A4D2CD00D12CD4 /* Build configuration list for PBXProject "MMWhaleImageCropper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -309,8 +315,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B87A99EB19A4D2CD00D12CD4 /* RSKImageCropperExample */,
-				B87A9A0619A4D2CD00D12CD4 /* RSKImageCropperExampleTests */,
+				B87A99EB19A4D2CD00D12CD4 /* MMWhaleImageCropper */,
+				B87A9A0619A4D2CD00D12CD4 /* MMWhaleImageCropperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -323,6 +329,8 @@
 				B87A99FA19A4D2CD00D12CD4 /* InfoPlist.strings in Resources */,
 				B87A9A0219A4D2CD00D12CD4 /* Images.xcassets in Resources */,
 				B8182F2E1ABC998B00601E43 /* LaunchScreen.xib in Resources */,
+				6208AFCA1B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.debug.xcconfig in Resources */,
+				6208AFCB1B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +357,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSKImageCropperExampleTests/Pods-RSKImageCropperExampleTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMWhaleImageCropperTests/Pods-MMWhaleImageCropperTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6AFE7950ADB38A86FEE6F8CB /* Check Pods Manifest.lock */ = {
@@ -403,7 +411,7 @@
 /* Begin PBXTargetDependency section */
 		B87A9A0D19A4D2CD00D12CD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B87A99EB19A4D2CD00D12CD4 /* RSKImageCropperExample */;
+			target = B87A99EB19A4D2CD00D12CD4 /* MMWhaleImageCropper */;
 			targetProxy = B87A9A0C19A4D2CD00D12CD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -510,9 +518,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RSKImageCropperExample/RSKImageCropperExample-Prefix.pch";
-				INFOPLIST_FILE = "RSKImageCropperExample/RSKImageCropperExample-Info.plist";
-				PRODUCT_NAME = RSKImageCropperExample;
+				GCC_PREFIX_HEADER = "RSKImageCropperExample/MMWhaleImageCropper-Prefix.pch";
+				INFOPLIST_FILE = "RSKImageCropperExample/MMWhaleImageCropper-Info.plist";
+				PRODUCT_NAME = MMWhaleImageCropper;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -524,9 +532,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RSKImageCropperExample/RSKImageCropperExample-Prefix.pch";
-				INFOPLIST_FILE = "RSKImageCropperExample/RSKImageCropperExample-Info.plist";
-				PRODUCT_NAME = RSKImageCropperExample;
+				GCC_PREFIX_HEADER = "RSKImageCropperExample/MMWhaleImageCropper-Prefix.pch";
+				INFOPLIST_FILE = "RSKImageCropperExample/MMWhaleImageCropper-Info.plist";
+				PRODUCT_NAME = MMWhaleImageCropper;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -534,7 +542,7 @@
 		};
 		B87A9A1C19A4D2CD00D12CD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57E1277B2ACCBFB99F6EC92E /* Pods-RSKImageCropperExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 6208AFC81B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSKImageCropperExample.app/RSKImageCropperExample";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -543,13 +551,13 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RSKImageCropperExampleTests/RSKImageCropperExample-Prefix.pch";
+				GCC_PREFIX_HEADER = "RSKImageCropperExampleTests/MMWhaleImageCropper-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "RSKImageCropperExampleTests/RSKImageCropperExampleTests-Info.plist";
-				PRODUCT_NAME = RSKImageCropperExampleTests;
+				INFOPLIST_FILE = "RSKImageCropperExampleTests/MMWhaleImageCropperTests-Info.plist";
+				PRODUCT_NAME = MMWhaleImageCropperTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -557,7 +565,7 @@
 		};
 		B87A9A1D19A4D2CD00D12CD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1A54F64148CAD255A339567 /* Pods-RSKImageCropperExampleTests.release.xcconfig */;
+			baseConfigurationReference = 6208AFC91B3CA40E003130F4 /* Pods-MMWhaleImageCropperTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSKImageCropperExample.app/RSKImageCropperExample";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -566,9 +574,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RSKImageCropperExampleTests/RSKImageCropperExample-Prefix.pch";
-				INFOPLIST_FILE = "RSKImageCropperExampleTests/RSKImageCropperExampleTests-Info.plist";
-				PRODUCT_NAME = RSKImageCropperExampleTests;
+				GCC_PREFIX_HEADER = "RSKImageCropperExampleTests/MMWhaleImageCropper-Prefix.pch";
+				INFOPLIST_FILE = "RSKImageCropperExampleTests/MMWhaleImageCropperTests-Info.plist";
+				PRODUCT_NAME = MMWhaleImageCropperTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -577,7 +585,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B87A99E719A4D2CD00D12CD4 /* Build configuration list for PBXProject "RSKImageCropperExample" */ = {
+		B87A99E719A4D2CD00D12CD4 /* Build configuration list for PBXProject "MMWhaleImageCropper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B87A9A1619A4D2CD00D12CD4 /* Debug */,
@@ -586,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B87A9A1819A4D2CD00D12CD4 /* Build configuration list for PBXNativeTarget "RSKImageCropperExample" */ = {
+		B87A9A1819A4D2CD00D12CD4 /* Build configuration list for PBXNativeTarget "MMWhaleImageCropper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B87A9A1919A4D2CD00D12CD4 /* Debug */,
@@ -595,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B87A9A1B19A4D2CD00D12CD4 /* Build configuration list for PBXNativeTarget "RSKImageCropperExampleTests" */ = {
+		B87A9A1B19A4D2CD00D12CD4 /* Build configuration list for PBXNativeTarget "MMWhaleImageCropperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B87A9A1C19A4D2CD00D12CD4 /* Debug */,
