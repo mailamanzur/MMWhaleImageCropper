@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'MMWHaleImageCropper'
-  s.version      = '0.1.1'
+  s.version      = '0.1.2'
   s.summary      = 'An image cropper for iOS like in the Contacts app with support for landscape orientation.'
   s.homepage     = 'http://github.com/mailamanzur/MMWhaleImageCropper'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
